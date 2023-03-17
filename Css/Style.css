@@ -646,6 +646,131 @@ body{
         
     }
 
+    .card-tienda{
+       display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 16px;
+         width: 1200px;
+         height: 356px;
+
+    }
+
+    .card-tienda .card{       
+        border: 1px solid red;
+        width: 284px;
+        height: 340px; 
+        background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        
+    }  
+
+    .fondo-lego{
+        background: url(/Assets/img/fondo-lego.png);
+        height: 95px;             
+     
+    }
+
+    .fondo-xiaomi{
+        background: url(/Assets/img/fondo-xiaomi.png);
+        height: 95px;             
+     
+    }
+
+    .fondo-oster{
+        background: url(/Assets/img/fondo-oster.png);
+        height: 95px;             
+     
+    }
+
+    .fondo-nilon{
+        background: url(/Assets/img/fondo-nilon.png);
+        height: 95px;             
+     
+    }
+
+    .tiendas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .titulo-tienda{
+        padding-left: 8px;
+        padding-bottom: 21.19px;
+    }
+
+    .container-juguetes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        width: 284px;
+        height: 74px;
+        padding-top:70px;  
+        
+    }
+
+    .logo{    
+            
+        padding-left: 102px;
+        padding-top: 55px;
+       
+    }
+    .atributo{
+        width: 80px;
+        height: 80px;       
+        background: #FFFFFF;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    .item-img{
+        width: 70px;
+        height: 70px;
+        border: 1px solid #EEEEEE;
+        border-radius: 8px;
+    }
+
+    .titulo-item{
+        color: #333;
+        font-size: 24px;
+        font-weight: 600;
+        height: 35px;
+        margin: 16px 0;  
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+       padding-top: 50px;
+        
+    }
+    .ver-tienda{
+        padding-top: 50px;
+        padding-left: 107px;
+    }
+
+    .card-tienda .card-i{       
+        border: 1px solid red;
+        width: 284px;
+        height: 340px; 
+        background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        
+    }  
+
+  
+
+   
+   
+   
+
+   
+  
+
+
 
 
 
