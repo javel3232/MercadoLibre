@@ -625,7 +625,7 @@ body{
         color: white;
     }
 
-    .sub .text{
+    .sub , .info-super .text{
         font-family: Roboto;
         font-size: 12px;
         font-weight: 600;
@@ -636,7 +636,7 @@ body{
 
     }
 
-    .info .text-main{
+    .info ,.info-super .text-main{
         font-family: 'Roboto';
         font-style: normal;
         font-weight:600;
@@ -656,8 +656,8 @@ body{
 
     }
 
-    .card-tienda .card{       
-        border: 1px solid red;
+    .card-tienda .card{     
+
         width: 284px;
         height: 340px; 
         background: #FFFFFF;
@@ -761,6 +761,60 @@ body{
         
     }  
 
+
+    /*-------------------------------------------------------------- */
+
+    .supermercado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #EBEBEB;
+       
+    }
+
+    .container-super{
+        margin-top: 36px;
+       
+    }
+
+
+    .container-item-super{
+        display: flex;
+        gap:16px       
+     
+    }
+
+   .items-products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:16px;
+   }
+
+   .container-super .titulo{
+    display: flex;
+    flex-direction: row;  
+    padding-bottom: 24px; 
+   }
+   .info-super{
+    display: flex;
+    flex-direction: column;
+    width: 383px;
+    height: 99px;
+    left: 0px;    
+    background: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    padding: 20px 25px;    
+   }
+     .items-all{
+    height: 184px;
+    width: 184px;
+    border-radius: 4px;
+
+   }
+   .img-super{
+    width: 383px;
+    height: 285px;
+   }
   
 
    
