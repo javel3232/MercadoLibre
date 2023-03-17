@@ -11,6 +11,7 @@ body{
     overflow-x: hidden;
     background: #EBEBEB;
 }
+/* navegacion */
 
 .nav-menu a{
     text-decoration: none;
@@ -154,6 +155,8 @@ body{
         
     }
 
+    /* seccion de las formas de pago */
+
     .formas-pago{
         display: flex;
         justify-content: center;
@@ -284,5 +287,260 @@ body{
         color: #3483FA;
     }
 
+    .suscribir{
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+        margin-top: 57px;
+    }
 
+    .sub-container{
+        width: 1180px;
+        height: 340px;
+        left: 166px;
+        top: 980.19px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+    }
 
+    .sub-container-head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        background: linear-gradient(90deg, #A90F90 55%, #0C1A51 100%);
+        border-radius: 6px 6px 0px 0px ;
+    }
+
+    .precio-sub{
+        display: flex;
+        flex-direction: column;
+        padding-right: 27.5px;
+        align-items: flex-start;
+        
+    }
+
+    .titulo-sub{
+        padding: 24px;
+        
+    }
+
+    .titulo-head{
+        font-family: 'sans-serif';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .precio-p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        text-decoration-line: line-through;
+        color: #FFFFFF;
+    }
+
+    .precio-g{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .text-ml-main{
+    padding-left: 24px;
+    padding-top: 20px;
+    }
+   .plataformas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:74px;
+    padding-left: 24px;
+    padding-right: 24px;
+        
+         
+   }
+
+   .mes{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF;
+   }
+
+   .plataformas-sub{
+    display: flex;
+    align-items: center;    
+    gap: 16px;
+    width: 377.33px;
+    height: 74px;
+    padding-bottom: 50px;    
+   }
+
+   .texto-informativo{
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 100%;
+   }
+
+   .contenedor-main-sub{
+    width: 1180px;
+    height: 172px;
+    left: 0px;
+    top: 87px;
+   }
+   .contenedor-boton-azul{
+    display: flex;
+    justify-content: end;
+    align-items: center;  
+    width: 1180px;
+    height: 88px; 
+    border-top: 1px solid #EDEDED;  
+    padding-right:30px ;
+    
+   }
+   .btn-sub{
+    width: 123.72px;
+     background: #3483FA;
+     width: 123.72px;
+     height: 48px;
+     border: none;
+     border-radius: 6px;
+     color: white;
+   
+   }
+
+   .beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   }
+
+   .contenedor-beneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 23px;
+    width: 1180px;
+    height: 399.19px;
+    
+    
+   }
+
+   .titulo-mercado{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 2px;
+    padding-top: 40px;
+    
+   }
+
+   .forma-beneficio{
+    display: flex;
+    justify-content:start;
+    align-items: end;  
+
+    height: 250px;
+    width: 384px;
+    border-radius:5px; 
+
+   }
+
+  .items-disney{
+    background: url(/Assets/img/disneyStart.png);  
+  
+    
+  }
+
+  .items-hbo{
+    background: url(/Assets/img/hbomax.png);  
+    
+  }
+
+  .items-paramaunt{
+    background: url(/Assets/img/paramount.png);  
+    
+  }
+
+  .cards-bene{
+    display: flex; 
+    justify-content: center;   
+    align-items: center;
+    gap: 16px;
+  }
+
+  .items-log{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 16px;
+    border-radius: 6px;
+    height: 124px;
+    width: 100%;
+    
+  }
+
+  .disney-gradient{
+    background: linear-gradient(0deg, #081330 0%, rgba(8, 19, 48, 0) 100%);
+  }
+
+  .hbo-gradient{
+    background: linear-gradient(0deg, #3C034E 0%, rgba(60, 3, 78, 0) 100%);
+
+  }
+
+    .paramaunt-gradient{
+        background: linear-gradient(0deg, #0064FF 0%, rgba(0, 100, 255, 0) 100%);
+
+    }
+
+  .info-bene{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:4.97px;
+    padding-left: 16px;
+  }
+
+  .titulo-ben{    
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+
+  }
+
+  .subtitulo-ben{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .dias-ben{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+  }
+   
