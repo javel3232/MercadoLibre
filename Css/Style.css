@@ -915,6 +915,52 @@ body{
     color: #4B4B4B;
 
    }
+
+  
+   .selectores .itm{
+    display:inline-block;
+    padding: 10px;
+    
+    
+   }
+   .info-copir {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px;
+    
+   }
+   .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 156px;    
+    background: #FFFFFF;
+    border-top: 1px solid #E6E6E6;
+   
+  
+   }
+   .section-iconos{ 
+    width: 1180px;
+    height: 69px;  
+    border-top: 1px solid #EDEDED;
+    padding-top: 20px;   
+    
+   }
+   
+   .copira{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;   
+    
+    color: #999999;
+
+   }
+
    
 
 
