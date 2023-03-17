@@ -769,13 +769,14 @@ body{
         justify-content: center;
         align-items: center;
         background: #EBEBEB;
-       
-    }
-
-    .container-super{
         margin-top: 36px;
        
     }
+    .container-super{
+        padding-top: 36px;
+    }
+
+   
 
 
     .container-item-super{
@@ -815,6 +816,112 @@ body{
     width: 383px;
     height: 285px;
    }
+   .title-col{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666666;
+
+   }
+   .title-sup{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    color: #666666;
+
+   }   
+
+   .items-categoria{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 1190px;
+    height: 340px; 
+    background: rgba(255, 255, 255, 0.002);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    
+    
+   }
+
+   .contenido-categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 170px;  
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+    text-align: center;
+    gap: 22px;
+
+   }  
+   .categorias-populares{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 38px;
+
+
+   }
+   .titulo-categoria{
+    padding-top: 37px;
+    padding-bottom: 20px;
+   }
+
+   .pago-envio-seguridad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    background: #FFFFFF;
+
+   }
+
+   .main-contenedor-pago{
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    border-radius: 0px;
+    text-align: center;
+    
+
+   }
+
+   .contenedor-tarjet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    width: 400px;
+    gap:20px;
+    padding: 20px;
+
+   }
+   .titulo-tarjet
+   {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    color: #4B4B4B;
+
+   }
+   
+
+
+   
+
+  
+   
   
 
    
