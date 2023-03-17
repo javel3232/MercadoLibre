@@ -543,4 +543,112 @@ body{
     font-size: 11px;
     line-height: 16px;
   }
+
+  /* Seccion descubre */
+
+    .descubre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .titulo-descubre{
+    padding-bottom:19.19px ;
+    padding-left: 8px;
+    }
+
+    .contenedor-descubre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:56.12px;
+    }  
+
+    .contenedores-card-des{
+        display: flex;
+        justify-content: center;        
+        gap: 16px;
+        height: 265px;
+        width: 1200px;        
+    }
+
+    .contenedores-card-des .card-descubre{
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        height: 250px;
+        width: 584px;       
+        border-radius: 4px;
+        gap: 32.16px;
+              
+        
+
+    }
+
+    .card-descubre .info-caja{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 11px;
+        padding-left: 32px;        
+      
+    }
+    .card-descubre .info-caja .info{
+        display: flex;      
+        flex-direction: column;       
+
+    }
+
+    .img-hogar{
+        height: 250px;
+        width: 289.84375px;
+        left: 319.5px;
+        top: 0px;
+        border-radius: 0px;
+    }
+
+    .info-caja{
+        width: 287.34px;
+        height: 198.59px;
+    }
+
+    .btn-descubre{
+        width: 96px;
+        height: 36px;
+        left: 32px;
+        top: 130.59px;
+        background: #3483FA;
+        border-radius: 2px;
+        border: none;
+        color: white;
+    }
+
+    .sub .text{
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 12px;
+        letter-spacing: 4px;
+        color: #4B4B4B;
+        text-transform: uppercase;
+
+    }
+
+    .info .text-main{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:600;
+        font-size: 22px;
+        line-height: 31px;
+        color: #4B4B4B;
+        
+    }
+
+
+
+
+
    
+    
